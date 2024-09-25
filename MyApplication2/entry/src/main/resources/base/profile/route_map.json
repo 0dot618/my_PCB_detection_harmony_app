@@ -1,0 +1,21 @@
+
+{
+  "routerMap": [
+    {
+      "name": "Upload",
+      "pageSourceFile": "src/main/ets/pages/Upload.ets",
+      "buildFunction": "UploadBuilder",
+      "data": {
+        "description": "this is Upload"
+      }
+    },
+    {
+      "name": "Detect",
+      "pageSourceFile": "src/main/ets/pages/Detect.ets",
+      "buildFunction": "DetectBuilder",
+      "data": {
+        "description": "this is Detect"
+      }
+    }
+  ]
+}

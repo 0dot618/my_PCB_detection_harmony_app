@@ -1,0 +1,49 @@
+{
+  "app": {
+    "signingConfigs": [
+      {
+        "name": "default",
+        "type": "HarmonyOS",
+        "material": {
+          "certpath": "/Users/horoyoi/.ohos/config/default_MyApplication2_QRxf-wGa2HDJp5RGs8bWaZ62IBZT0gT9oe_8k5BadqE=.cer",
+          "storePassword": "0000001B13AF96B672B4AED5B96B57AAD69C90707DFB8870A1C952ACC2E4390B1CBCC3164013A78C199A31",
+          "keyAlias": "debugKey",
+          "keyPassword": "0000001B1301534A83037AEE2A21DF4D51530809A2FAFB3045E7FEE82333F52F7494BC9DC1D50ABB864A16",
+          "profile": "/Users/horoyoi/.ohos/config/default_MyApplication2_QRxf-wGa2HDJp5RGs8bWaZ62IBZT0gT9oe_8k5BadqE=.p7b",
+          "signAlg": "SHA256withECDSA",
+          "storeFile": "/Users/horoyoi/.ohos/config/default_MyApplication2_QRxf-wGa2HDJp5RGs8bWaZ62IBZT0gT9oe_8k5BadqE=.p12"
+        }
+      }
+    ],
+    "products": [
+      {
+        "name": "default",
+        "signingConfig": "default",
+        "compatibleSdkVersion": "5.0.0(12)",
+        "runtimeOS": "HarmonyOS",
+      }
+    ],
+    "buildModeSet": [
+      {
+        "name": "debug",
+      },
+      {
+        "name": "release"
+      }
+    ]
+  },
+  "modules": [
+    {
+      "name": "entry",
+      "srcPath": "./entry",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
+    }
+  ]
+}
